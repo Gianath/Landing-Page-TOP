@@ -25,6 +25,10 @@ a {
     font-size: 18px;
 }
 
+.header, .hero-header, .info, .quote, .callToAction, .footer {
+    padding: 0 208px
+}
+
 .header {
     background-color: var(--darkblue);
     color: var(--yellow);
