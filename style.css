@@ -88,3 +88,42 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.info {
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--darkblue);
+}
+
+.content {
+    display: flex;
+    gap: 48px;
+    height: 60%;
+}
+
+.item {
+    width: 160px;
+    text-align: center;
+}
+
+.item-img {
+    width: 160px;
+    height: 160px;
+    border: 4px solid var(--blue);
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.item-text {
+    color: rgb(105, 105, 105);
+    font-size: 1.1rem;
+}
