@@ -149,3 +149,39 @@ a {
     font-weight: 600;
     font-size: 26px;
 }
+
+.callToAction {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--blue);
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cta-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--yellow);
+}
+.cta-subtitle {
+    font-size: 18px;
+    color: var(--white);
+}
+
+.cta-button {
+    background-color: var(--blue);
+    border: 2px solid var(--yellow);
+    color: var(--yellow);
+    border-radius: 8px;
+    padding: 8px 34px;
+    font-weight: 700;
+}
