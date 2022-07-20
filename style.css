@@ -127,3 +127,25 @@ a {
     color: rgb(105, 105, 105);
     font-size: 1.1rem;
 }
+
+.quote {
+    background-color: var(--white);
+    color: var(--darkblue);
+    height: 472px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-name {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 26px;
+}
